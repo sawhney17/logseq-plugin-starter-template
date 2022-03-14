@@ -1,7 +1,7 @@
 {
-  "name": "logseq-custom-workflow-plugin",
+  "name": "logseq-starter-plugin",
   "version": "1.0",
-  "description": "Custom Workflow Plugin",
+  "description": "Starter Plugin",
   "main": "dist/index.html",
   "targets": {
     "main": false
@@ -14,12 +14,11 @@
   "author": "Aryan Sawhney",
   "license": "MIT",
   "dependencies": {
-    "@logseq/libs": "0.0.1-alpha.35",
-    "prettier": "^2.5.1"
+    "@logseq/libs": "0.0.1-alpha.34"
   },
   "logseq": {
-    "id": "logseq-custom-workflow-plugin",
-    "title": "Custom Workflows",
+    "id": "logseq-starter-plugin",
+    "title": "logseq-starter-plugin",
     "icon": "./icon.png"
   },
   "devDependencies": {
